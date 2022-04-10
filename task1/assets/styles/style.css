@@ -1,0 +1,76 @@
+.main{
+    width: 70%;
+    height: 60px;
+    border: 2px solid black;
+    border-radius: 10px;
+    
+    position: relative;
+    
+}
+
+.empty{
+    position: absolute;
+    width: 4%;
+    height: 80%;
+    left: 35px;
+    top: 10%;
+    background-color: yellow;
+
+}
+.full{
+    position: absolute;
+    width: 50%;
+    height: 80%;
+    left: 20%;
+    top: 7%;
+    background-color: yellow;
+}
+.half{
+    position: absolute;
+    width: 7%;
+    height: 80%;
+    right: 50px;
+    top: 10%;
+    background-color: yellow;
+}
+.border{
+    height: 70%;
+    width: 50%;
+    position: absolute;
+    border: 3px solid green;
+    top: 10%;
+    left: 25%;
+}
+.blue{
+    position: absolute;
+    background-color: blue;
+    height: 70%;
+    width: 25%; 
+    left: 40%;      
+    bottom: 0; 
+}
+.blue-full{
+    position: absolute;
+    background-color: blue;
+    height: 70%;
+    width: 25%;  
+    left: 5%;
+    bottom: 0;
+}
+
+.little{
+    position: absolute;
+    background-color: blue;
+    height: 70%;
+    width: 10%;  
+    right: 5%;
+    bottom: 0;
+}
+.red{
+    position: absolute;
+    background-color: red;
+    height: 70%;
+    width: 25%;  
+    right: 0;
+   top: 0;
+}
